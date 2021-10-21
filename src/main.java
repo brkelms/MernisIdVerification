@@ -8,7 +8,7 @@ public class main {
 		KPSPublicSoapProxy kpsPublic = new KPSPublicSoapProxy();
 		boolean result = kpsPublic.TCKimlikNoDogrula(Long.parseLong("901412333111" ), "MAHMUT", "DAROL", 1988);
 		
-		System.out.println("Doğrulama : " + (result ? "başarılı" : "başarısız"));
+		System.out.println("DoÃ°rulama : " + (result ? "baÅŸarÄ±lÄ±" : "baÅŸarÄ±sÄ±z"));
 	}
 
 }
